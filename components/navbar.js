@@ -1,8 +1,13 @@
 import Link from 'next/link';
+import logo from '../public/logo.png'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-10 mb-9 flex justify-between dark:bg-teal-600">
+    <nav className="fixed w-full z-20 top-0 left-0 bottom-50 bg-gray-700 py-2 mb-9 flex justify-between dark:bg-teal-600">
+      <div className='logo w-40 h-28 mb-7'>
+        <Image src={logo} alt="Logo" />
+      </div>
       <h1 className='text-xl text-black font-bold font-burtons ml-8 tracking-wider'>Woolwich Pannabai Shakha</h1>
       <ul className="flex items-center">
       <li>
