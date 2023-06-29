@@ -3,6 +3,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav>
+      <ul className="flex items-center">
       <li>
         <Link href='/'>
           <a>Home</a>
@@ -28,6 +29,7 @@ const Navbar = () => {
           <a>Contact</a>
         </Link>
       </li>
+      </ul>
     </nav>
   );
 };

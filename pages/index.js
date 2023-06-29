@@ -11,7 +11,7 @@ const Home = () => {
       </Head>
       <div>
         <Navbar />
-        <h1>Welcome</h1>
+        <h1>Woolwich Pannabai Shakha</h1>
       </div>
     </div>
   )
