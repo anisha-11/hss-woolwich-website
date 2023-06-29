@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import navbar from '../components/navbar'
+import Navbar from '../components/navbar'
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <link rel='stylesheet' href='favicon.ico' />
       </Head>
       <div>
-        <navbar />
+        <Navbar />
         <h1>Welcome</h1>
       </div>
     </div>
