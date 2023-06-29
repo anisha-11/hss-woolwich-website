@@ -10,7 +10,7 @@ const Home = () => {
       </Head>
       <div>
         <Navbar />
-        <h1 className='text-xl text-black font-bold font-burtons ml-8 tracking-wider'>Woolwich Pannabai Shakha</h1>
+        {/* <h1 className='text-xl text-black font-bold font-burtons ml-8 tracking-wider'>Woolwich Pannabai Shakha</h1> */}
       </div>
     </div>
   )
